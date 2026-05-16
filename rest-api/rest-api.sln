@@ -1,55 +1,55 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.1.11312.151
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.GettingStarted", "1.GettingStarted", "{437837AA-AECD-4F38-BBB5-AE8873E1DCCC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "crud-basics", "crud-basics", "{437837AA-AECD-4F38-BBB5-AE8873E1DCCC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{E206559B-5371-451B-AD2E-D5E304174D51}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "helpers", "helpers", "{E206559B-5371-451B-AD2E-D5E304174D51}"
 	ProjectSection(SolutionItems) = preProject
-		Helpers\Course.postman_collection.json = Helpers\Course.postman_collection.json
-		Helpers\movies.json = Helpers\movies.json
+		helpers\Course.postman_collection.json = helpers\Course.postman_collection.json
+		helpers\movies.json = helpers\movies.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "1.GettingStarted\Movies.Api\Movies.Api.csproj", "{5F67A488-3747-493A-9F82-DF6082D686F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "crud-basics\Movies.Api\Movies.Api.csproj", "{5F67A488-3747-493A-9F82-DF6082D686F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "1.GettingStarted\Movies.Application\Movies.Application.csproj", "{46BCBFD6-D4A5-48AB-A0E0-ABBEA8CAE2ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "crud-basics\Movies.Application\Movies.Application.csproj", "{46BCBFD6-D4A5-48AB-A0E0-ABBEA8CAE2ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "1.GettingStarted\Movies.Contracts\Movies.Contracts.csproj", "{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "crud-basics\Movies.Contracts\Movies.Contracts.csproj", "{EAABC916-D2E8-4997-9FC0-2E10AA14EFCE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.BeyondTheBasics", "2.BeyondTheBasics", "{D964A6A5-29B1-4B1B-8350-398E28AFF74E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "validation-middleware", "validation-middleware", "{D964A6A5-29B1-4B1B-8350-398E28AFF74E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "2.BeyondTheBasics\Movies.Api\Movies.Api.csproj", "{36CF9B3D-5AFD-430C-8355-1C363F6C9481}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "validation-middleware\Movies.Api\Movies.Api.csproj", "{36CF9B3D-5AFD-430C-8355-1C363F6C9481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "2.BeyondTheBasics\Movies.Application\Movies.Application.csproj", "{DE42E50C-AF08-43B9-93DC-9FA707D7C485}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "validation-middleware\Movies.Application\Movies.Application.csproj", "{DE42E50C-AF08-43B9-93DC-9FA707D7C485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "2.BeyondTheBasics\Movies.Contracts\Movies.Contracts.csproj", "{0B83E435-9701-48DB-AE47-05BF7E868E1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "validation-middleware\Movies.Contracts\Movies.Contracts.csproj", "{0B83E435-9701-48DB-AE47-05BF7E868E1A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Auth", "3.Auth", "{BB193B03-79CD-46B9-9332-CA022AC62B71}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "authentication", "authentication", "{BB193B03-79CD-46B9-9332-CA022AC62B71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Api", "Helpers\Identity.Api\Identity.Api.csproj", "{433113A5-C035-45E1-9CDC-EDA30654A615}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Api", "helpers\Identity.Api\Identity.Api.csproj", "{433113A5-C035-45E1-9CDC-EDA30654A615}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "3.Auth\Movies.Api\Movies.Api.csproj", "{BDFBFD90-576A-4836-B522-08B4205F0112}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "authentication\Movies.Api\Movies.Api.csproj", "{BDFBFD90-576A-4836-B522-08B4205F0112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "3.Auth\Movies.Application\Movies.Application.csproj", "{8F412CB5-B74B-47DD-B8C9-891A313D9C28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "authentication\Movies.Application\Movies.Application.csproj", "{8F412CB5-B74B-47DD-B8C9-891A313D9C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "3.Auth\Movies.Contracts\Movies.Contracts.csproj", "{C2A546B8-DE61-4A1D-B124-5161B45D0C12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "authentication\Movies.Contracts\Movies.Contracts.csproj", "{C2A546B8-DE61-4A1D-B124-5161B45D0C12}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Ratings", "4.Ratings", "{7A0CA5B8-0ABF-451A-AF3F-B38C417533A2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "user-scoped-data", "user-scoped-data", "{7A0CA5B8-0ABF-451A-AF3F-B38C417533A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "4.Ratings\Movies.Api\Movies.Api.csproj", "{2BBA2F1A-1646-8B03-19A9-905C231790C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "user-scoped-data\Movies.Api\Movies.Api.csproj", "{2BBA2F1A-1646-8B03-19A9-905C231790C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "4.Ratings\Movies.Application\Movies.Application.csproj", "{07028D8B-FF4C-8309-3BC3-E7E2A7B0EE6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "user-scoped-data\Movies.Application\Movies.Application.csproj", "{07028D8B-FF4C-8309-3BC3-E7E2A7B0EE6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "4.Ratings\Movies.Contracts\Movies.Contracts.csproj", "{B75A59B7-4AE8-5469-3D69-AB2E6ED5B192}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "user-scoped-data\Movies.Contracts\Movies.Contracts.csproj", "{B75A59B7-4AE8-5469-3D69-AB2E6ED5B192}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.AdvancedFeatures", "5.AdvancedFeatures", "{BCFFAD82-11FD-43FD-A555-D63B28A6F251}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pagination-filtering", "pagination-filtering", "{BCFFAD82-11FD-43FD-A555-D63B28A6F251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "5.AdvancedFeatures\Movies.Api\Movies.Api.csproj", "{6511D728-E6F9-976B-D844-E19A90DB646C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "pagination-filtering\Movies.Api\Movies.Api.csproj", "{6511D728-E6F9-976B-D844-E19A90DB646C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "5.AdvancedFeatures\Movies.Application\Movies.Application.csproj", "{2C40C246-F7C6-B2AF-95C2-3A2F5189B67D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "pagination-filtering\Movies.Application\Movies.Application.csproj", "{2C40C246-F7C6-B2AF-95C2-3A2F5189B67D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "5.AdvancedFeatures\Movies.Contracts\Movies.Contracts.csproj", "{A5CDA9F3-B9DD-875B-3AA3-8FF2580DBF5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contracts", "pagination-filtering\Movies.Contracts\Movies.Contracts.csproj", "{A5CDA9F3-B9DD-875B-3AA3-8FF2580DBF5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
